@@ -29,7 +29,7 @@ function Home() {
   return (
     <>
       <section>
-        <div className="d-flex col-12">
+        <div className="d-flex col-12 flex-row" id="main-container">
           {/* left-content */}
           <div className="col-5 d-flex flex-column gap-3 mt-5 pt-5">
             <div>
