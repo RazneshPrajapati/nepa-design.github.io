@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+  font-family: 'Karla', sans-serif;
+}
+
 .no-fill {
   border: none;
   background: none;
