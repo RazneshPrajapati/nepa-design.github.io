@@ -9,6 +9,10 @@ const webpageDetails = [
     name: "Travel Website Home Page",
     link: "/travelWebsiteHomePage",
   },
+  {
+    name: "FrequencyUI",
+    link: "/frequencyUI",
+  },
 ];
 
 const MainMenu = () => {

@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import DigitalAgencyLandingPage from "../Digital Agency Landing Page/DigitalAgencyLandingPage";
 import MainMenu from "../MainMenu";
 import TravelWebsiteHomePage from "../Travel Website Home Page/TravelWebsiteHomePage";
+import FrequencyUI from "../FrequencyUI/FrequencyUI";
 
 const Routes = () => {
   return (
@@ -16,6 +17,9 @@ const Routes = () => {
         </Route>
         <Route exact path="/travelWebsiteHomePage">
           <TravelWebsiteHomePage />
+        </Route>
+        <Route exact path="/frequencyUI">
+          <FrequencyUI />
         </Route>
       </Switch>
     </>
