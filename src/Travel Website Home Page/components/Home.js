@@ -10,7 +10,7 @@ const Home = () => {
             Treat yourself with a journey to your inner self. Visit a mystique
             tibet and start your spritual adventure.
           </p>
-          <div className="d-flex col-10 gap-5 text-capitalize primary-color fs-6 mb-5">
+          <div className="d-flex col-10 gap-5 text-capitalize travel-website-primary-color fs-6 mb-5">
             <div>
               <i className="bi bi-check fs-4 lh-1"></i>Make your dreams
             </div>
@@ -20,11 +20,11 @@ const Home = () => {
           </div>
           <div className="d-flex col-10 search-group justify-content-center gap-3 box-shadow">
             <input
-              className="search-input primary-color fs-5"
+              className="search-input travel-website-primary-color fs-5"
               type="text"
               placeholder="Type something..."
             />
-            <button className="nav-button primary-background text-white fw-bold">
+            <button className="travel-website-nav-button travel-website-primary-background text-white fw-bold">
               Search
             </button>
           </div>

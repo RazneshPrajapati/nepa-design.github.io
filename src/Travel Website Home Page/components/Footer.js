@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <section className="window-height pt-4 gap-5 d-flex flex-column justify-content-between">
-      <div className="subscribe-container d-flex flex-row align-items-center gap-5 px-5 primary-background">
+      <div className="subscribe-container d-flex flex-row align-items-center gap-5 px-5 travel-website-primary-background">
         <div className="col-6">
         <div className="fs-1 text-capitalize text-white">
             Subscribe newsletter &amp; get company news.
@@ -16,7 +16,7 @@ const Footer = () => {
               type="text"
               placeholder="Enter your email"
             />
-            <button className="d-flex align-items-center primary-background text-white fs-5 subscribe-button px-4 pb-3 pt-2 gap-1">
+            <button className="d-flex align-items-center travel-website-primary-background text-white fs-5 subscribe-button px-4 pb-3 pt-2 gap-1">
               <i className="bi bi-envelope"></i>
               <div style={{ padddingTop: "5px" }}> Subscribe</div>
             </button>
@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="d-flex justify-content-between footer-container">
         <div className="d-flex flex-column justify-content-between">
           <div className="fw-bold fs-5 col-2">
-            Trave<span className="primary-color">g</span>
+            Trave<span className="travel-website-primary-color">g</span>
           </div>
           <div className="fw-light">
             <div>Business Number: + 1554 4435 343</div>

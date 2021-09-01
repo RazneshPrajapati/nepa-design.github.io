@@ -13,6 +13,10 @@ const webpageDetails = [
     name: "FrequencyUI",
     link: "/frequencyUI",
   },
+  {
+    name: "Railroad Travelers Home Page",
+    link: "/railroadTravelersHomepage",
+  },
 ];
 
 const MainMenu = () => {

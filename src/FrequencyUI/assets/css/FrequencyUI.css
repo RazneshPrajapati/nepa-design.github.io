@@ -1,10 +1,8 @@
-a {
-  font-weight: 500;
-  text-decoration: none;
+.freuencyUI-nav-link {
   color: white;
 }
 
-a:hover {
+.freuencyUI-nav-link:hover {
   color: #f9d802;
 }
 

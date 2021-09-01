@@ -8,7 +8,7 @@ const ContactUs = () => {
           <div className="h1 lh-1 text-capitalize">Why choose us?</div>
           <div className="d-flex flex-column gap-5">
             <div className="d-flex gap-5">
-              <div className="d-flex justify-content-center align-items-center fs-1 contact-icon lh-1 primary-color">
+              <div className="d-flex justify-content-center align-items-center fs-1 contact-icon lh-1 travel-website-primary-color">
                 <i className="bi bi-geo-alt icon-margin"></i>
               </div>
               <div className="d-flex flex-column gap-2 col-7">
@@ -20,7 +20,7 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="d-flex gap-5">
-              <div className="d-flex justify-content-center align-items-center fs-1 contact-icon lh-1 text-white primary-background">
+              <div className="d-flex justify-content-center align-items-center fs-1 contact-icon lh-1 text-white travel-website-primary-background">
                 <i className="bi bi-bookmark-dash-fill icon-margin"></i>
               </div>
               <div className="d-flex flex-column gap-2 col-7">
@@ -32,7 +32,7 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="d-flex gap-5">
-              <div className="d-flex justify-content-center align-items-center fs-1 contact-icon lh-1 primary-color">
+              <div className="d-flex justify-content-center align-items-center fs-1 contact-icon lh-1 travel-website-primary-color">
                 <i className="bi bi-star icon-margin"></i>
               </div>
               <div className="d-flex flex-column gap-2 col-7">

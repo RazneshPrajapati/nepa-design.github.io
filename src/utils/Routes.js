@@ -4,6 +4,7 @@ import DigitalAgencyLandingPage from "../Digital Agency Landing Page/DigitalAgen
 import MainMenu from "../MainMenu";
 import TravelWebsiteHomePage from "../Travel Website Home Page/TravelWebsiteHomePage";
 import FrequencyUI from "../FrequencyUI/FrequencyUI";
+import RailroadTravelersHomepage from "../Railroad Travelers Homepage/RailroadTravelersHomepage";
 
 const Routes = () => {
   return (
@@ -20,6 +21,9 @@ const Routes = () => {
         </Route>
         <Route exact path="/frequencyUI">
           <FrequencyUI />
+        </Route>
+        <Route exact path="/railroadTravelersHomepage">
+          <RailroadTravelersHomepage />
         </Route>
       </Switch>
     </>

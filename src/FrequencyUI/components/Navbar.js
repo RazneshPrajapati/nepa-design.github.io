@@ -6,9 +6,9 @@ const Navbar = () => {
       <div className="text-uppercase col-2 fs-5 fw-bold">Frequency</div>
       <div className="d-flex flex-row col-4 offset-5">
         <div className="d-flex justify-content-between col-7">
-          <div className="fs-5"><a href="/">Home</a></div>
-          <div className="fs-5"><a href="/">Product</a></div>
-          <div className="fs-5"><a href="/">About</a></div>
+          <div className="fs-5"><a href="/" className="freuencyUI-nav-link">Home</a></div>
+          <div className="fs-5"><a href="/" className="freuencyUI-nav-link">Product</a></div>
+          <div className="fs-5"><a href="/" className="freuencyUI-nav-link">About</a></div>
         </div>
         <div className="d-flex col-3 offset-1 justify-content-around">
           <i className="bi bi-person-fill fs-5"></i>

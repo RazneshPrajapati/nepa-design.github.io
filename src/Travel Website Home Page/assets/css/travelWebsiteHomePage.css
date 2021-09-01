@@ -3,15 +3,15 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.primary-color {
+.travel-website-primary-color {
   color: #00928c;
 }
 
-.primary-background {
+.travel-website-primary-background {
   background-color: #00928c;
 }
 
-.secondary-background {
+.travel-website-secondary-background {
   background-color: #eff9f8;
 }
 
@@ -20,11 +20,11 @@
 }
 
 /* navbar */
-#navItem:first-child {
+#travel-website-navItem:first-child {
   color: #00928c;
 }
 
-.nav-button {
+.travel-website-nav-button {
   border: none;
   border-radius: 40px;
   padding: 10px 20px;

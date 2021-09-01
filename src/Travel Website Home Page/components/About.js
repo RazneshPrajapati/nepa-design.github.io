@@ -46,7 +46,7 @@ const getFace = () => {
 
   faceElement.push(
     <div
-      className="circle-image primary-color fw-bold fs-4"
+      className="circle-image travel-website-primary-color fw-bold fs-4"
       key={faceElement.length}
       style={{
         transform: `translate(${faceElement.length * imageGap}px, 0px)`,
@@ -64,15 +64,15 @@ const About = () => {
   return (
     <section className="pt-4">
       <div className="d-flex flex-column window-height col-12">
-        <div className="d-flex flex-wrap col-12 round-corner secondary-background justify-content-center align-items-center pb-2">
-          <img src={company1} className=" px-3" alt="Company 1" width="120px" />
-          <img src={company2} className=" px-3" alt="Company 2" width="120px" />
-          <img src={company3} className=" px-3" alt="Company 3" width="120px" />
-          <img src={company4} className=" px-3" alt="Company 4" width="120px" />
-          <img src={company5} className=" px-3" alt="Company 5" width="120px" />
-          <img src={company6} className=" px-3" alt="Company 6" width="200px" />
-          <img src={company7} className=" px-3" alt="Company 7" width="120px" />
-          <img src={company8} className=" px-3" alt="Company 8" width="140px" />
+        <div className="d-flex flex-wrap col-12 round-corner travel-website-secondary-background justify-content-center align-items-center pb-2">
+          <img src={company1} className="px-3" alt="Company 1" width="120px" />
+          <img src={company2} className="px-3" alt="Company 2" width="120px" />
+          <img src={company3} className="px-3" alt="Company 3" width="120px" />
+          <img src={company4} className="px-3" alt="Company 4" width="120px" />
+          <img src={company5} className="px-3" alt="Company 5" width="120px" />
+          <img src={company6} className="px-3" alt="Company 6" width="200px" />
+          <img src={company7} className="px-3" alt="Company 7" width="120px" />
+          <img src={company8} className="px-3" alt="Company 8" width="140px" />
         </div>
 
         <div className="d-flex col-12">
@@ -96,7 +96,7 @@ const About = () => {
             </p>
             <div className="d-flex col-10">{getFace()}</div>
             <div className="d-flex col-10">
-              <button className="nav-button primary-background text-white fw-bold px-5">
+              <button className="travel-website-nav-button travel-website-primary-background text-white fw-bold px-5">
                 Book Now
               </button>
             </div>

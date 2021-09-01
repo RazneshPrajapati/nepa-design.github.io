@@ -30,7 +30,7 @@ const TourPackageCard = ({ cards }) => {
           </div>
           <div className="d-flex align-items-end gap-4">
             <div className="d-flex gap-2 fs-5">{getStar(card.ratings)}</div>
-            <button className="button-outline-primary primary-color fs-5 fw-bold">
+            <button className="button-outline-primary travel-website-primary-color fs-5 fw-bold">
               {card.price}
             </button>
           </div>
